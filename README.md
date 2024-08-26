@@ -12,3 +12,4 @@ This is a base project that you can use to make SABA mods. (i.e custom levels, r
 * Set the Integration Version to **All > 2019.1 > 2019.1.9.7221.1609** and press Integrate
 * Open the .uproject and if asked to do anything click yes, you may be asked to compile modules.
 * Once everything has compiled, you can do anything you please from there.
+* (Optional) If you want to play the game's Wwise Events, then extract the Audio and WwiseAudio folder from the game and place them in the Content folder. You will have to [edit the DefaultEngine.ini file to enable loading Cooked Content.](https://dev.epicgames.com/community/learning/knowledge-base/BLXJ/unreal-engine-how-to-work-with-cooked-content-in-editor)
