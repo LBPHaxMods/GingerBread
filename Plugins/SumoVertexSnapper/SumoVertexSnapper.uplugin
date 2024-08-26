@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SumoVertexSnapper",
+	"Description": "Use the vertex snapper by pressing V to show the vertices, and Left Click to snap it to other vertices. Left Shift can be held down to also align surfaces. Keys rebindable in the editor preferences.",
+	"Category": "SUMO",
+	"CreatedBy": "Benjamin Dring",
+	"CreatedByURL": "http://www.sumo-digital.com",
+	"DocsURL": "https://mysumo.sumo-digital.com/sites/sumodigital/LBP4/_layouts/OneNote.aspx?id=%2Fsites%2Fsumodigital%2FLBP4%2FSiteAssets%2FLBP4%20Notebook&wd=target%28Design%2FLevel%20Design.one%7CBE75B9CC-1E1B-EE43-88E5-A5ECC7EEA50C%2FVertex%20Snapping%7CF3018993-44D4-4F10-B023-BAB8DB046258%2F%29",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:bedring@sumo-digital.com",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}

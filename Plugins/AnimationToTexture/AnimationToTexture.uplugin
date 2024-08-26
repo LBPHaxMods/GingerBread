@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Animation to texture",
+	"Description": "Converts a skeletal animation into texture to be used by the GPU Animation Shader.",
+	"Category": "Animation",
+	"CreatedBy": "Daniele Colombo - on behalf of Sumo Digital Ltd",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}

@@ -1,0 +1,7 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "MinibossMeanieArenaManipulationEmergencyStopSettings.h"
+#include "MeanieArenaEmergencyStopEventDelegate.generated.h"
+
+UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FMeanieArenaEmergencyStopEvent, FMinibossMeanieArenaManipulationEmergencyStopSettings, EmergencyStopSettings);
+

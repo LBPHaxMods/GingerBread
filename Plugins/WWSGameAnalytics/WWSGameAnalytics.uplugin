@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "WWS Game Analytics",
+	"Description": "Telemetry",
+	"Category": "Networking",
+	"CreatedBy": "SCEE WWS OTG",
+	"CreatedByURL": "http://www.playstation.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GameAnalytics",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"PS4",
+				"Android",
+				"IOS",
+				"Win64",
+				"Mac"
+			]
+		}
+	]
+}

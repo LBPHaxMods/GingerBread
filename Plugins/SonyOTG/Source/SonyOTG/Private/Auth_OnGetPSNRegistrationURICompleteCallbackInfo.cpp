@@ -1,0 +1,5 @@
+#include "Auth_OnGetPSNRegistrationURICompleteCallbackInfo.h"
+
+FAuth_OnGetPSNRegistrationURICompleteCallbackInfo::FAuth_OnGetPSNRegistrationURICompleteCallbackInfo() {
+}
+

@@ -1,0 +1,45 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ESurfaceMaterial.generated.h"
+
+UENUM(BlueprintType)
+enum class ESurfaceMaterial : uint8 {
+    Default,
+    MetalThick,
+    MetalThin,
+    CarRoof,
+    CarbonFibre,
+    Acrylic,
+    Plastic,
+    Cloth,
+    Fabric,
+    Carpet,
+    Stone,
+    WoodHard,
+    Bamboo,
+    WoodHollow,
+    WoodPlank,
+    Ceramic,
+    Cardboard,
+    GlassThick,
+    GlassThin,
+    Polystyrene,
+    Leather,
+    Leatherette,
+    Dirt,
+    Tarp,
+    Foil,
+    Sponge,
+    Cloud,
+    WindChimes,
+    SlapExtender,
+    FallingPlatform,
+    CritterReceptacle,
+    BubbleWrap,
+    Rubber,
+    Gloop,
+    Ice,
+    Wicker,
+    MAX_COUNT,
+};
+
