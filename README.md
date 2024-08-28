@@ -1,7 +1,6 @@
 # GingerBread
-Base Project for SABA Modding
 # What is this?
-This is a base project that you can use to make SABA mods. (i.e custom levels, restore unused features) 
+This is a base project that you can use to make SABA mods. (i.e custom levels, restore unused features) This project tries not to make use of cooked (assets taken straight from the game files) blueprints, as most of them are simply C++ classes. 
 # Prerequisites
 * Sackboy: A Big Adventure (PC, PS4 untested)
 * Wwise Launcher
