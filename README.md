@@ -16,6 +16,7 @@ This is a base project that you can use to make SABA mods. (i.e custom levels, r
 # Known Issues
 * Cooking is likely to fail, but it should get far enough to at least cook the assets and put them in the Saved/Cooked folder
 # Important Blueprints / Classes
+**NOTE: Some of these will crash, and I'm not sure why**
 ## /Cameras/BP_CameraARea
   This defines the properties for a camera area box, a Camera Collider Actor must be attached to it and put in the properties, which will define where the camera area will work.
 ## /Cameras/BP_SingleScreenCamera
