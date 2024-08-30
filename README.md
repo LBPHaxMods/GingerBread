@@ -33,6 +33,8 @@ This is a base project that you can use to make SABA mods. (i.e custom levels, r
   This is necessary for a lot of the audio to work.
 ## /Blueprints/Audio/BP_PhysicalAudioManager
   Unknown, but I would recommend placing it in your level anyways.
+## /Blueprints/Audio/AudioManager
+  If you have any special gameplay objects or enemies in your level, then use this to load their audio banks, otherwise their sounds may not work. This will require having the games Audio and WwiseAudio folders extracted.
 ## /Blueprints/Cutscenes/CutsceneController_BP
   This is used for playing Fly-Through/Intro cutscenes, I have not figured it out entirely yet.
 ## /Blueprints/Cutscenes/Stuntboy
