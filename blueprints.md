@@ -12,6 +12,8 @@
   This is a knot that you can grab on, you can configure what comes out of these.
 ## /Blueprints/Objects/Snowball2/Snowball2_C_BP
   This is a snowball that Sackboy can enter.
+## /Blueprints/Managers/GingerbreadEventDispatcher_BP
+  This is a blueprint used to communicate between Sackboy and Blueprints. From my experience, only the "Sackboy Spawned" and "Sackboy Died" events actually fire.
 ## /Blueprints/Audio/GameplayAudioManager_BP
   This is necessary for a lot of the audio to work.
 ## /Blueprints/Audio/BP_PhysicalAudioManager
