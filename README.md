@@ -1,6 +1,6 @@
 # GingerBread
 # What is this?
-This is a base project that you can use to make SABA mods. (i.e custom levels, restore unused features) This project tries not to make use of cooked (assets taken straight from the game files) blueprints, as most of them are simply C++ classes. A template map can be found in Content/Maps/Template1
+This is a base project that you can use to make SABA mods. (i.e custom levels, restore unused features) This project tries not to make use of cooked (assets taken straight from the game files) blueprints, as most of them are simply C++ classes. A template map can be found in Content/Maps/Template1. If you wish to use [lbphaxmods' mod loader](https://gamebanana.com/tools/17882), then use the template in /Content/Mods/Template
 # Prerequisites
 * Sackboy: A Big Adventure (PC, PS4 untested)
 * Wwise Launcher
