@@ -12,3 +12,8 @@ public:
     GINGERBREAD_API FStickerReferenceSaveKey();
 };
 
+// Define the GetTypeHash function for FStickerReferenceSaveKey
+FORCEINLINE uint32 GetTypeHash(const FStickerReferenceSaveKey& StickerReferenceSaveKey)
+{
+    return GetTypeHash(StickerReferenceSaveKey.KeyName);
+}

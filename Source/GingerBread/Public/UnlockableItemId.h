@@ -12,3 +12,9 @@ public:
     GINGERBREAD_API FUnlockableItemId();
 };
 
+
+// Define the GetTypeHash function for FPSNProductId
+FORCEINLINE uint32 GetTypeHash(const FUnlockableItemId& UnlockableItemId)
+{
+    return GetTypeHash(UnlockableItemId.RawId);
+}

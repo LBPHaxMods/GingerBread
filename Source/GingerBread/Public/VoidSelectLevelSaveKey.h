@@ -15,3 +15,9 @@ public:
     GINGERBREAD_API FVoidSelectLevelSaveKey();
 };
 
+// VoidSelectLevelSaveKey.h
+
+FORCEINLINE uint32 GetTypeHash(const FVoidSelectLevelSaveKey& Key)
+{
+    return HashCombine(GetTypeHash(Key.TableName), GetTypeHash(Key.RowName));
+}

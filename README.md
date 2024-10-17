@@ -12,7 +12,5 @@ This is a base project that you can use to make SABA mods. (i.e custom levels, r
 * Open the .uproject and if asked to do anything click yes, you may be asked to compile modules.
 * Once everything has compiled, you can do anything you please from there.
 * (Optional) If you want to play the game's Wwise Events, then extract the Audio and WwiseAudio folder from the game and place them in the Content folder.
-# Known Issues
-* Cooking is likely to fail, but it should get far enough to at least cook the assets and put them in the Saved/Cooked folder
 # Special Thanks
 * Special Thanks to the developers of UE4SS, this wouldn't have been possible without their tools.

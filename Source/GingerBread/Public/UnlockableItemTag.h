@@ -17,3 +17,10 @@ public:
     GINGERBREAD_API FUnlockableItemTag();
 };
 
+// UnlockableItemTag.h
+
+FORCEINLINE uint32 GetTypeHash(const FUnlockableItemTag& UnlockableItemTag)
+{
+    return HashCombine(GetTypeHash(UnlockableItemTag.Type), GetTypeHash(UnlockableItemTag.ID));
+}
+
