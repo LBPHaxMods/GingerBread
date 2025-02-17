@@ -5,7 +5,7 @@ When DLSS 3 + Nvidia Reflex were added into the game, the modifications from [Nv
 
 I tried compiling my custom UE4.25.1 build with the RTX DLSS changes and used an older version of the game, but custom materials still crash the game. 😢
 
-Some material domains still function, like UI and post-processing, though Volume materials won't crash but don't show.
+Some material domains still function, like UI and post-processing, though Volume materials won't crash but don't show. Deferred Decals will show up with no texture, and z-fight with the floor, so they are unusable.
 
 # Limitations
-  * BSP Brushes will crash the game upon Sackboy stepping on them, I don't know why this happens but it does. Best to convert all BSP brushes to Static Meshes.
+  * BSP Brushes will crash the game upon Sackboy stepping on them, I don't know why this happens but it does. It is best to convert all BSP brushes to Static Meshes.
